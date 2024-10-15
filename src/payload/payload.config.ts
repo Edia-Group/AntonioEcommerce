@@ -10,8 +10,8 @@ import { slateEditor } from '@payloadcms/richtext-slate'
 import dotenv from 'dotenv'
 import path from 'path'
 import { buildConfig } from 'payload/config'
-import { visualEditor } from "payload-visual-editor";
-import "payload-visual-editor/dist/styles.scss";
+import { visualEditor } from 'payload-visual-editor'
+import 'payload-visual-editor/dist/styles.scss'
 
 import Categories from './collections/Categories'
 import { Media } from './collections/Media'
@@ -144,7 +144,7 @@ export default buildConfig({
     }),
     payloadCloud(),
     visualEditor({
-      previewUrl: () => `http://localhost:3001/pages/preview`,
+      previewUrl: () => `http://localhost:3000/pages/preview`,
       previewWidthInPercentage: 60,
     }),
   ],
