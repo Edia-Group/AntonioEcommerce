@@ -1,0 +1,12 @@
+{
+    "indentRainbow.excludedLanguages": [
+        "typescript",
+        "javascript",
+        "jsx",
+        "tsx",
+        "markdown",
+        "ts",
+        "js",
+        "plaintext"
+    ]
+}
