@@ -11,7 +11,6 @@ import dotenv from 'dotenv'
 import path from 'path'
 import { buildConfig } from 'payload/config'
 import { visualEditor } from 'payload-visual-editor'
-import 'payload-visual-editor/dist/styles.scss'
 
 import Categories from './collections/Categories'
 import { Media } from './collections/Media'
@@ -30,6 +29,8 @@ import { Header } from './globals/Header'
 import { Settings } from './globals/Settings'
 import { priceUpdated } from './stripe/webhooks/priceUpdated'
 import { productUpdated } from './stripe/webhooks/productUpdated'
+
+import 'payload-visual-editor/dist/styles.scss'
 
 const generateTitle: GenerateTitle = () => {
   return 'My Store'
