@@ -6,9 +6,9 @@
   "configurations": [
     {
       "command": "yarn dev",
-      "name": "Debug Ecommerce",
+      "name": "Debug Website",
       "request": "launch",
-      "type": "node-terminal",
-    },
+      "type": "node-terminal"
+    }
   ]
 }
